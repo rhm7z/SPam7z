@@ -1,0 +1,8 @@
+pkg update
+pkg upgrade
+pkg install python2 -y
+pkg install python -y
+pkg install php -y
+pkg install nano -y
+pkg install git -y
+
