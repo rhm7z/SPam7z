@@ -1,0 +1,212 @@
+#!/bin/bash
+#JanganRECODEGoblog
+#AinkNuub
+#OwnerRHm7z
+
+#Warna
+b='\033[1m'
+u='\033[4m'
+bl='\E[30m'
+r='\E[;91m'
+g='\E[92m'
+bu='\E[34m'
+m='\E[95m'
+c='\E[;96m'
+w='\E[97m'
+
+clear
+echo -e $r "  ▒████▒   ██████▒     ▒██▒    ███  ███"
+echo -e $r " ▒██████   ███████▒    ▓██▓    ███  ███"
+echo -e $r " ██▒  ▒█   ██   ▒██    ████    ███▒▒███"
+echo -e $r " ██        ██    ██    ████    ███▓▓███"
+echo -e $r " ███▒      ██   ▒██   ▒█▓▓█▒   ██▓██▓██"
+echo -e $r " ▒█████▒   ███████▒   ▓█▒▒█▓   ██▒██▒██      [+] Author : RHm7z"
+echo -e $w "  ░█████▒  ██████▒    ██  ██   ██░██░██      [-] SPAMMER TOOLS V.1"
+echo -e $w "     ▒███  ██         ██████   ██ ██ ██""     $c [X] Code Type BASH"
+echo -e $w "       ██  ██        ░██████░  ██    ██"
+echo -e $w " █▒░  ▒██  ██        ▒██  ██▒  ██    ██"
+echo -e $w " ███████▒  ██        ███  ███  ██    ██"
+echo -e $w " ░█████▒   ██        ██▒  ▒██  ██    ██"
+
+echo -e ""
+echo ""
+echo ""                        
+echo -e $bu "              === [ INDONESIA NEGARA HUKUM ] ==="
+echo -e $bu "            === [ SALAM DARI PAYAKUMBUH CITY ] ==="
+echo -e $bu "          === [ GUNAKAN TOOLS INI DENGAN BIJAK ] ==="
+echo -e $bu "        === [FB :  www.facebook.com/arif.kun.456 ] ==="
+echo -e $bu "                 === [ WA : 083161612354 ] === "
+echo ""
+echo ""
+
+#######################################
+# CTRL + C
+#######################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $g "[+] Angkat Kaki Gih >\\\<"
+sleep 1
+echo -e $g "[+] Thanks You Mastah :)"
+sleep 1
+echo ""
+echo -e $g "[+] Tunggu Next Update :v"
+echo -e $g "[+] Contact Me To Help :v"
+sleep 1
+exit
+}
+
+echo -e $r " [!] PILIH TOOLS YANG TERSEDIA [!] "
+echo ""
+echo ""
+echo -e $g "       === SMS SPAMMER ==="
+echo ""
+sleep 1
+echo -e $r " [ 01 ] SPAM THREE "
+echo -e $r " [ 02 ] SPAM PHD "
+echo -e $r " [ 03 ] SPAM LITE OTP "
+echo -e $r " [ 04 ] SPAM JD.ID "
+echo -e $r " [ 05 ] SPAM WHISKAS "
+echo -e $r " [ 06 ] SPAM TOKOPEDIA "
+echo -e $r " [ 07 ] SPAM HOOQTV "
+echo -e $r " [ 08 ] SPAM ZIPAY "
+echo -e $r " [ 09 ] SPAM KFC "
+echo -e $r " [ 10 ] SPAM MATAHARI MALL "
+sleep 1
+echo ""
+echo -e $g "       === CALL SPAMMER ==="
+echo ""
+echo -e $r " [ 11 ] SPAM CALL LITE OTP"
+echo -e $r " [ 12 ] SPAM CALL TOKOPEDIA"
+sleep 1
+echo ""
+echo -e $g "       === MAIL SPAMMER ==="
+echo ""
+sleep 1
+echo -e $r " [ 13 ] SPAM EMAIL"
+echo ""
+echo -e $c " [ 00 ] E X I T "
+echo ""
+sleep 1
+read -p "root@rhm7z :~# " lo
+
+if [ $lo = 01 ] || [ $lo = 1 ]
+then
+clear
+figlet -f banner "PLEASE WAIT"
+read -p "Masukan No 0896xxxxxxxx : " no
+cd module
+python2 tri.py --=20 $no
+fi
+
+if [ $lo = 02 ] || [ $lo = 2 ]
+then
+clear
+figlet -f banner "PLEASE WAIT" | lolcat
+read -p "Masukan No : " no
+cd module
+python2 phd.py $no
+fi
+
+if [ $lo = 03 ] || [ $lo = 3 ]
+then
+clear
+figlet -f banner "PLEASE WAIT" | lolcat
+read -p "Masukan No : " no
+cd module
+python2 lite.py --sms $no
+fi
+
+if [ $lo = 04 ] || [ $lo = 4 ]
+then
+clear
+figlet -f banner "PLEASE WAIT" | lolcat
+read -p "Masukan No : " no
+cd module
+python2 jdid.py --=10 $no
+fi
+
+if [ $lo = 05 ] || [ $lo = 5 ]
+then
+clear
+figlet -f banner "PLEASE WAIT" | lolcat
+cd module
+php hooq.php
+fi
+
+if [ $lo = 06 ] || [ $lo = 6 ]
+then
+clear
+figlet -f banner "PLEASE WAIT" | lolcat
+cd module
+php tp.php
+fi
+
+if [ $lo = 07 ] || [ $lo = 7 ]
+then
+clear
+figlet -f banner "PLEASE WAIT" | lolcat
+cd module
+php hooq.php
+fi
+
+if [ $lo = 08 ] || [ $lo = 8 ]
+then
+clear
+figlet -f banner "PLEASE WAIT" | lolcat
+cd module
+php zipay.php
+fi
+
+if [ $lo = 09 ] || [ $lo = 9 ]
+then
+clear
+figlet -f banner "PLEASE WAIT" | lolcat
+cd module
+php kfc.php
+fi
+
+if [ $lo = 10 ] || [ $lo = 10 ]
+then
+clear
+figlet -f banner "PLEASE WAIT" | lolcat
+cd module
+php mataharimall.php
+fi
+
+if [ $lo = 11 ] || [ $lo = 11 ]
+then
+clear
+figlet -f banner "PLEASE WAIT" | lolcat
+cd module
+read -p "Masukan No : " no
+python2 lite.py --call $no
+fi
+
+if [ $lo = 12 ] || [ $lo = 12 ]
+then
+clear
+figlet -f banner "PLEASE WAIT" | lolcat
+cd module
+php SpamCall.php
+fi
+
+if [ $lo = 13 ] || [ $lo = 13 ]
+then
+clear
+figlet -f banner "PLEASE WAIT" | lolcat
+cd module
+python2 SpamMail.py
+fi
+
+if [ $lo = 0 ] || [ $lo = 00 ]
+then
+clear
+echo -e $g "THANKS TO USE"
+sleep 1
+echo -e $g "WE ARE" $r"ANONYMOUS"
+sleep 1
+echo -e $r "WE ARE" $w"INDONESIA FAMILY"
+sleep 1
+echo -e $r "ANONYMOUS" $w"INDONESIA"
+fi
